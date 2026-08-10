@@ -1,4 +1,4 @@
-# Enterprise Dynamic Application Security Testing (DAST) Lab
+# Enterprise Dynamic Application Security Testing (DAST)
 
 ## Overview
 This repository demonstrates an enterprise-grade Dynamic Application Security Testing (DAST) framework designed to identify, validate, and remediate application and API security vulnerabilities across CI/CD pipelines and staging environments.
