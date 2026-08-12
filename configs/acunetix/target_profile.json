@@ -1,0 +1,18 @@
+{
+    "profile_name": "API_and_Web_Combined_Audit",
+    "scan_speed": "moderate",
+    "custom_headers": [
+        {"name": "X-DAST-Scan-Header", "value": "Auhtorized-Security-Assessment"}
+    ],
+    "excluded_hours_id": "",
+    "technologies": [
+        "Node.js", 
+        "Express", 
+        "PHP", 
+        "MySQL"
+    ],
+    "authentication": {
+        "type": "recorded",
+        "login_url": "http://192.168.47.129:3000/#/login"
+    }
+}

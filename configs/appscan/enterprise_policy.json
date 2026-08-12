@@ -1,0 +1,23 @@
+{
+    "AppScanPolicy": {
+        "name": "Enterprise-DAST-HighThroughput",
+        "Description": "Optimized scan policy for web and API microservices focusing on OWASP Top 10.",
+        "CrawlParameters": {
+            "DepthLimit": 5,
+            "RedundantPathLimit": 3,
+            "TrackSessionState": true,
+            "ExecuteJavascript": true
+        },
+        "TestOptimization": {
+            "TestTypes": [
+                "SQLInjection",
+                "CrossSiteScripting",
+                "BrokenAccessControl",
+                "AuthenticationBypass"
+            ],
+            "SeverityThreshold": "LowAndAbove",
+            "DynamicTailoring": true
+        }
+                     
+    }
+}
